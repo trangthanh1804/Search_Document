@@ -1,0 +1,46 @@
+@import "../../assets/styles/mixin/responsive";
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fbfbfb;
+  height: 150px;
+}
+.header img {
+  width: 120px;
+  height: 120px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.header__item-1 h1 {
+  color: #b93232;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.header__item-1 span {
+  color: #468a32;
+  font-size: 25px;
+  font-weight: 600;
+}
+.header__item-1 {
+  text-align: left;
+  padding-top: 15px;
+}
+.header__item-2 {
+  padding-left: 500px;
+  padding-top: 50px;
+}
+.header__item-2 input {
+  background-color: #ebebeb;
+  border: 1px solid #ebebeb;
+  position: relative;
+  padding: 5px;
+}
+.header__item-2 .header__icon > i {
+  position: absolute;
+  line-height: 35px;
+  width: 35px;
+  right: 111px;
+}

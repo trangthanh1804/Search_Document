@@ -1,0 +1,19 @@
+.degree-info-columns {
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+  ul > li {
+    width: 23.3333%;
+  }
+
+  ul > li::before {
+    position: absolute;
+    content: "";
+    height: 100px;
+    width: 2px;
+    background-color: rgb(163, 151, 151);
+  }
+}
